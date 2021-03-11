@@ -1,0 +1,14 @@
+server:
+  port: 8888
+  servlet:
+    context-path: /springDataDemo
+    
+spring:
+  application:
+    name: spring-data-demo-service
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/poc?useSSL=false
+    username: root
+    password: MySqlServerSetup2021@
+    driver-class-name: com.mysql.cj.jdbc.Driver
